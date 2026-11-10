@@ -111,9 +111,9 @@ const channels = [
   {
     key: 'mail',
     label: 'MAIL',
-    desc: 'Reliarc.me@outlook.com',
+    desc: 'reliarc.yu@gmail.com',
     img: getAssetUrl('letter.png'),
-    link: 'mailto:Reliarc.me@outlook.com'
+    link: 'mailto:reliarc.yu@gmail.com'
   }
 ];
 
