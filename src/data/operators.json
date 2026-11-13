@@ -1,0 +1,202 @@
+[
+  {
+    "id": "nian",
+    "name": "年",
+    "codename": "NIAN",
+    "profession": "重装 · 铁卫",
+    "description": "熟悉金属工艺与冶金的炎国访客，偶尔为罗德岛的工程项目出谋划策。比起循规蹈矩的日子，她更喜欢热闹、电影与新鲜事。",
+    "url": "https://prts.wiki/w/年",
+    "avatar": "/assets/characters/nian-avatar.png",
+    "camp": "/assets/emblem.png",
+    "illustList": [
+      {
+        "phase": 0,
+        "illust": "/assets/characters/nian-e0.png",
+        "focus": {
+          "scale": 1.1,
+          "tx": 0.022000000000000023,
+          "ty": 0.13900000000000007
+        },
+        "styledFocus": {
+          "x": 0.48,
+          "y": 0.21
+        },
+        "source": "https://prts.wiki/w/文件:立绘_年_1.png"
+      },
+      {
+        "phase": 2,
+        "illust": "/assets/characters/nian-e2.png",
+        "focus": {
+          "scale": 1.45,
+          "tx": 0.029000000000000026,
+          "ty": -0.006000000000000005
+        },
+        "styledFocus": {
+          "x": 0.48,
+          "y": 0.38
+        },
+        "source": "https://prts.wiki/w/文件:立绘_年_2.png"
+      }
+    ]
+  },
+  {
+    "id": "dusk",
+    "name": "夕",
+    "codename": "DUSK",
+    "profession": "术师 · 扩散术师",
+    "description": "擅长炎国传统绘画的画家，以笔墨构筑自成天地的山水。她少与外人来往，将漫长的光阴收进画卷，也在画中保留自己的答案。",
+    "url": "https://prts.wiki/w/夕",
+    "avatar": "/assets/characters/dusk-avatar.png",
+    "camp": "/assets/emblem.png",
+    "illustList": [
+      {
+        "phase": 0,
+        "illust": "/assets/characters/dusk-e0.png",
+        "focus": {
+          "scale": 1.1,
+          "tx": 0.011000000000000012,
+          "ty": 0.20500000000000002
+        },
+        "styledFocus": {
+          "x": 0.49,
+          "y": 0.15
+        },
+        "source": "https://prts.wiki/w/文件:立绘_夕_1.png"
+      },
+      {
+        "phase": 2,
+        "illust": "/assets/characters/dusk-e2.png",
+        "focus": {
+          "scale": 1.45,
+          "tx": 0.014500000000000013,
+          "ty": 0.05199999999999999
+        },
+        "styledFocus": {
+          "x": 0.49,
+          "y": 0.34
+        },
+        "source": "https://prts.wiki/w/文件:立绘_夕_2.png"
+      }
+    ]
+  },
+  {
+    "id": "ling",
+    "name": "令",
+    "codename": "LING",
+    "profession": "辅助 · 召唤师",
+    "description": "寓居尚蜀的诗人，因尚蜀事件与罗德岛结缘。她携酒行吟，在山川与梦境之间游走，将见闻写成诗，也将往事留给风。",
+    "url": "https://prts.wiki/w/令",
+    "avatar": "/assets/characters/ling-avatar.png",
+    "camp": "/assets/emblem.png",
+    "illustList": [
+      {
+        "phase": 0,
+        "illust": "/assets/characters/ling-e0.png",
+        "focus": {
+          "scale": 1.1,
+          "tx": -0.022000000000000023,
+          "ty": 0.09500000000000003
+        },
+        "styledFocus": {
+          "x": 0.52,
+          "y": 0.25
+        },
+        "source": "https://prts.wiki/w/文件:立绘_令_1.png"
+      },
+      {
+        "phase": 2,
+        "illust": "/assets/characters/ling-e2.png",
+        "focus": {
+          "scale": 1.45,
+          "tx": 0.05799999999999997,
+          "ty": -0.006000000000000005
+        },
+        "styledFocus": {
+          "x": 0.46,
+          "y": 0.38
+        },
+        "source": "https://prts.wiki/w/文件:立绘_令_2.png"
+      }
+    ]
+  },
+  {
+    "id": "shu",
+    "name": "黍",
+    "codename": "SHU",
+    "profession": "重装 · 守护者",
+    "description": "在大荒城从事多年农业研究的天师，也是一位耐心的授业者。她关心种子的生长与人们的餐食，把丰收的愿望落在每一次耕耘里。",
+    "url": "https://prts.wiki/w/黍",
+    "avatar": "/assets/characters/shu-avatar.png",
+    "camp": "/assets/emblem.png",
+    "illustList": [
+      {
+        "phase": 0,
+        "illust": "/assets/characters/shu-e0.png",
+        "focus": {
+          "scale": 1.1,
+          "tx": -0.011000000000000012,
+          "ty": 0.194
+        },
+        "styledFocus": {
+          "x": 0.51,
+          "y": 0.16
+        },
+        "source": "https://prts.wiki/w/文件:立绘_黍_1.png"
+      },
+      {
+        "phase": 2,
+        "illust": "/assets/characters/shu-e2.png",
+        "focus": {
+          "scale": 1.45,
+          "tx": -0.04350000000000004,
+          "ty": -0.04949999999999993
+        },
+        "styledFocus": {
+          "x": 0.53,
+          "y": 0.41
+        },
+        "source": "https://prts.wiki/w/文件:立绘_黍_2.png"
+      }
+    ]
+  },
+  {
+    "id": "chongyue",
+    "name": "重岳",
+    "codename": "CHONGYUE",
+    "profession": "近卫 · 斗士",
+    "description": "曾任玉门武术教官的宗师，也是年、夕与令的兄长。卸下旧职后，他仍以规律的修习磨炼拳脚，将多年战场经验化为守护他人的本领。",
+    "url": "https://prts.wiki/w/重岳",
+    "avatar": "/assets/characters/chongyue-avatar.png",
+    "camp": "/assets/emblem.png",
+    "illustList": [
+      {
+        "phase": 0,
+        "illust": "/assets/characters/chongyue-e0.png",
+        "focus": {
+          "scale": 1.1,
+          "tx": -0.011000000000000012,
+          "ty": 0.23800000000000004
+        },
+        "styledFocus": {
+          "x": 0.51,
+          "y": 0.12
+        },
+        "source": "https://prts.wiki/w/文件:立绘_重岳_1.png"
+      },
+      {
+        "phase": 2,
+        "illust": "/assets/characters/chongyue-e2.png",
+        "focus": {
+          "scale": 1.45,
+          "tx": 0.014500000000000013,
+          "ty": 0.03750000000000003
+        },
+        "styledFocus": {
+          "x": 0.49,
+          "y": 0.35
+        },
+        "source": "https://prts.wiki/w/文件:立绘_重岳_2.png"
+      }
+    ]
+  }
+]

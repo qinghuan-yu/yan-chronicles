@@ -1,0 +1,113 @@
+{
+  "original": {
+    "repository": "https://github.com/qinghuan-yu/yan-chronicles",
+    "commit": "862ca1c4b31c483149c3bd9e80d288d42752e0d3",
+    "authors": [
+      "黄芷馨",
+      "谭力玮"
+    ],
+    "materials": "原作山河插画、龙纹、黄令东齐伋体、《赴大荒》"
+  },
+  "prts": {
+    "mountains.png": {
+      "page": "https://prts.wiki/w/文件:场景_山岳.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "qingrang.png": {
+      "page": "https://prts.wiki/w/文件:场景_青穰.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "shangshu-view.png": {
+      "page": "https://prts.wiki/w/文件:Avg_25_i09.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "baizao-downtown.png": {
+      "page": "https://prts.wiki/w/文件:Avg_bg_58_g2_downtownarea.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "baizao-mainstreet.png": {
+      "page": "https://prts.wiki/w/文件:Avg_bg_58_g3_baizaomainstreet_d.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "baizao-dingfeng.png": {
+      "page": "https://prts.wiki/w/文件:Avg_bg_58_g15_restaurantlobby.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "baizao-restaurant.png": {
+      "page": "https://prts.wiki/w/文件:Avg_bg_58_g1_yusrestaurant.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "baizao-snow.png": {
+      "page": "https://prts.wiki/w/文件:Avg_bg_58_i10_4.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "dahuang-new.png": {
+      "page": "https://prts.wiki/w/文件:Avg_47_i03.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "dahuang-fields.png": {
+      "page": "https://prts.wiki/w/文件:Avg_47_i01.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    },
+    "yumen-distant.png": {
+      "page": "https://prts.wiki/w/文件:Avg_35_i01.png",
+      "rights": "《明日方舟》官方美术，权利归原权利人所有"
+    }
+  },
+  "lore": [
+    "https://prts.wiki/w/泰拉大典:地理/炎",
+    "https://prts.wiki/w/相见欢",
+    "https://prts.wiki/w/画中人",
+    "https://prts.wiki/w/怀黍离",
+    "https://prts.wiki/w/将进酒",
+    "https://prts.wiki/w/登临意"
+  ],
+  "characters": [
+    {
+      "name": "年",
+      "page": "https://prts.wiki/w/年",
+      "illustrations": [
+        "https://prts.wiki/w/文件:立绘_年_1.png",
+        "https://prts.wiki/w/文件:立绘_年_2.png"
+      ],
+      "avatar": "https://prts.wiki/w/文件:头像_年.png"
+    },
+    {
+      "name": "夕",
+      "page": "https://prts.wiki/w/夕",
+      "illustrations": [
+        "https://prts.wiki/w/文件:立绘_夕_1.png",
+        "https://prts.wiki/w/文件:立绘_夕_2.png"
+      ],
+      "avatar": "https://prts.wiki/w/文件:头像_夕.png"
+    },
+    {
+      "name": "令",
+      "page": "https://prts.wiki/w/令",
+      "illustrations": [
+        "https://prts.wiki/w/文件:立绘_令_1.png",
+        "https://prts.wiki/w/文件:立绘_令_2.png"
+      ],
+      "avatar": "https://prts.wiki/w/文件:头像_令.png"
+    },
+    {
+      "name": "黍",
+      "page": "https://prts.wiki/w/黍",
+      "illustrations": [
+        "https://prts.wiki/w/文件:立绘_黍_1.png",
+        "https://prts.wiki/w/文件:立绘_黍_2.png"
+      ],
+      "avatar": "https://prts.wiki/w/文件:头像_黍.png"
+    },
+    {
+      "name": "重岳",
+      "page": "https://prts.wiki/w/重岳",
+      "illustrations": [
+        "https://prts.wiki/w/文件:立绘_重岳_1.png",
+        "https://prts.wiki/w/文件:立绘_重岳_2.png"
+      ],
+      "avatar": "https://prts.wiki/w/文件:头像_重岳.png"
+    }
+  ],
+  "particleSymbols": "原作龙纹与本次绘制的五城风物纹样。五城纹样为意象概括，并非官方城市徽章。"
+}

@@ -1,0 +1,74 @@
+/* 档案扩展沿用原站的字号、旧金强调与全屏分区。 */
+.topic-container.archive-topic { overscroll-behavior: contain; }
+.archive-topic .topic-coordMark { pointer-events: none; }
+.archive-topic .topic-tabList { z-index: 2; }
+.archive-topic .archive-gallery { position: absolute; top: 12rem; right: 18rem; max-width: 34rem; z-index: 2; }
+.archive-topic .archive-imageLabel { margin-bottom: .75rem; color: #d7d7d7; font-size: max(12px, .875rem); letter-spacing: .1em; text-align: right; }
+.archive-galleryControls { display: flex; align-items: center; gap: 1rem; }
+.archive-galleryControls button { display: flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: .5rem; font-size: max(16px, 1.25rem); background: #080b0edb; border-bottom: 1px solid #7f8588; transition: color .2s, border-color .2s; }
+.archive-galleryControls button:hover { color: #c7a66b; border-color: #c7a66b; }
+.archive-galleryControls button:disabled { opacity: .35; }
+.archive-galleryControls .archive-enlarge { gap: 1rem; padding: .5rem 1rem; font-size: max(12px, .875rem); }
+.archive-imageCount { display: flex; align-items: baseline; gap: .5rem; min-width: 5rem; justify-content: center; font: 1.5rem Bender-Regular, "Source Han Sans SC", sans-serif; font-variant-numeric: tabular-nums; }
+.archive-imageCount > span { color: #b4b4b4; font-size: .85em; }
+.archive-loadStatus { min-height: 2.5em; margin-top: .75rem; color: #b4b4b4; font-size: max(12px, .875rem); line-height: 1.5; }
+.archive-loadStatus button { display: inline; padding: .25rem .5rem; margin-left: .75rem; color: #c7a66b; text-decoration: underline; }
+.archive-topic .archive-loadStatus { text-align: right; }
+.archive-topic .topic-description { white-space: pre-line; }
+.archive-topic .topic-topicInfo .topic-actions { margin-top: 2rem; }
+.archive-audio { display: flex; flex-direction: column; gap: .75rem; margin: 1.25rem 0; }
+.archive-audio > span { color: #b4b4b4; font-size: max(12px, .875rem); letter-spacing: .12em; }
+.archive-audio audio { width: min(100%, 30rem); max-width: 100%; height: 40px; }
+.archive-lightbox { position: fixed; inset: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: max(20px, 2rem); background: #06080bf5; border: none; color: #fff; overflow: hidden; }
+.archive-lightbox[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 1rem; }
+.archive-lightbox::backdrop { background: #000d; }
+.archive-lightboxHeader { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+.archive-lightboxHeader h2 { font-size: max(14px, 1.25rem); line-height: 1.5; }
+.archive-close { display: flex; align-items: center; gap: 1rem; min-height: 44px; flex: none; padding: .5rem 1rem; color: #c7a66b; font-size: max(14px, 1rem); border-bottom: 1px solid #c7a66b; }
+.archive-close span { font-size: 24px; }
+.archive-lightboxImage { min-height: 0; display: flex; align-items: center; justify-content: center; }
+.archive-lightboxImage img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.archive-lightboxFooter { position: relative; display: flex; justify-content: center; flex-direction: column; align-items: center; }
+.archive-lightboxFooter .archive-loadStatus { text-align: center; margin-top: .5rem; }
+.archive-modalControls { justify-content: center; }
+.archive-modalControls .archive-imageCount { font-size: max(18px, 1.5rem); }
+.archive-topic button:focus:not(:focus-visible) { outline: none; }
+
+/* 纵屏与短横屏使用同一档案内容流，避免原站固定高度裁掉来源及返回入口。 */
+@media (orientation: portrait), (max-height: 680px) {
+  .topic-container.archive-topic { height: 100dvh; overflow-y: auto; overflow-x: hidden; padding: 11.5rem 7.5rem 8rem 2rem; scrollbar-width: thin; scrollbar-color: #596166 #121212; }
+  .archive-topic .topic-bgWrapper { position: fixed; top: 0; height: 100dvh; }
+  .archive-topic .topic-bgWrapper:after { height: 100%; background: linear-gradient(180deg, #08080899, transparent 25%, #080808d9 60%, #080808); }
+  .archive-topic .topic-tabList { position: relative; inset: auto; width: 100%; padding: 0; overflow-x: auto; }
+  .archive-topic .topic-tabList .topic-_tabList { display: flex; align-items: center; gap: 1.5rem; min-width: max-content; border-bottom: 1px solid #565656; padding: 0 0 1.5rem; }
+  .archive-topic .topic-tabList .topic-tabItem { width: auto; height: auto; min-height: 36px; padding: .5rem .75rem; }
+  .archive-topic .topic-tabList .topic-tabItem + .topic-tabItem { margin: 0; }
+  .archive-topic .topic-tabList .topic-tabItem .topic-text { font-size: max(12px, 1.125rem); margin-right: .75rem; }
+  .archive-topic .archive-gallery { position: relative; inset: auto; max-width: none; margin-top: 3rem; padding-top: clamp(90px, 18vh, 180px); }
+  .archive-topic .archive-imageLabel, .archive-topic .archive-loadStatus { text-align: left; }
+  .archive-topic .archive-galleryControls { flex-wrap: wrap; gap: 1rem; }
+  .archive-topic .archive-imageCount { min-width: 5rem; font-size: max(18px, 1.5rem); }
+  .archive-topic .topic-topicInfo { position: relative; left: auto; bottom: auto; padding: 1.25rem 0 2rem; width: 100%; }
+  .archive-topic .topic-topicInfo .topic-subtitle { font-size: max(24px, 2.5rem); line-height: 1.15; overflow-wrap: anywhere; }
+  .archive-topic .topic-topicInfo .topic-title { font-size: max(30px, 3rem); line-height: 1.2; }
+  .archive-topic .topic-description { max-width: 100%; font-size: max(14px, 1.4rem); line-height: 1.85; }
+  .archive-topic .topic-topicInfo .topic-actions { max-width: 100%; gap: 2rem; }
+  .archive-topic .topic-topicInfo .topic-actions .topic-primaryText { font-size: max(14px, 1.25rem); }
+  .archive-topic .topic-topicInfo .topic-actions .topic-subText { font-size: max(10px, .875rem); }
+  .archive-topic .topic-topicInfo .topic-actions .topic-action { min-height: 44px; }
+  .archive-topic .topic-buttons { position: relative; z-index: 2; }
+  .archive-topic .topic-button.topic-returnBtn { position: relative; inset: auto; width: 20rem; min-width: 180px; height: 44px; padding: 0 2rem; }
+  .archive-topic .topic-button .topic-btnText .topic-main { font-size: max(14px, 1.25rem); }
+  .archive-topic .topic-button .topic-btnText .topic-sub { font-size: max(10px, .875rem); }
+  .archive-topic .topic-navContainer { position: relative; inset: auto; width: 100%; height: 6px; padding: 0; margin: 1rem 0 3rem; }
+  .archive-topic .topic-floatingText { display: none; }
+  .archive-topic .topic-coordMark:after { right: 5.75rem; }
+  .archive-topic .archive-audio audio { width: 100%; max-width: 360px; }
+}
+@media (orientation: landscape) and (max-height: 680px) {
+  .topic-container.archive-topic { padding: max(70px, 11.5rem) 18rem 5rem 9rem; }
+  .archive-topic .archive-gallery { padding-top: 12vh; }
+  .archive-topic .topic-topicInfo { max-width: 70rem; }
+  .archive-topic .topic-description { max-width: 55rem; }
+  .archive-topic .topic-coordMark:after { right: 14.75rem; }
+}
